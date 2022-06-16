@@ -1,94 +1,80 @@
-<footer class="text-center text-lg-start bg-light text-muted">
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-    </section>
 
+<footer class="text-center text-lg-start text-white pt-5">
+<div class="footer">
     <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
+        <div class=" text-center text-md-start ">
+            <div class="row footer_content">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>Company name
-                    </h6>
-                    <p>
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
+                    <div class="footer-logo " href="#">
+                        <img  src="{{ asset('images/hapo_white.png') }}" alt="HapoLearn Logo">
+                    </div>
+                    <p class="slogan_company">
+                        Interactive lessons,
                     </p>
                 </div>
 
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Products
-                    </h6>
+                <div class="col-md-1 col-lg-1 col-xl-1 mx-auto">
                     <p>
-                        <a href="#!" class="text-reset">Angular</a>
+                        <a href="#!" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">React</a>
+                        <a href="#!" class="text-reset">List course</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Vue</a>
+                        <a href="#!" class="text-reset">List lesson</a>
+                    </p>
+                   
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 mx-auto p-0">
+                    <p>
+                        <a href="#!" class="text-reset">Lesson detail</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Laravel</a>
+                        <a href="#!" class="text-reset">Login/Register</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Profile</a>
                     </p>
                 </div>
 
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Useful links
-                    </h6>
-                    <p>
-                        <a href="#!" class="text-reset">Pricing</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Settings</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Orders</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Help</a>
-                    </p>
-                </div>
+                
 
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Contact
-                    </h6>
-                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                    <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        info@example.com
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                   <div class="list_icon">
+                     <p class="icon_item">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
                     </p>
-                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    <p class="icon_item">
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </p>
+                    <p class="icon_item">
+                        <a href=""><i class="fa-solid fa-phone"></i></a>
+                    </p>   
+                   </div>
+                   <div class="list_address">
+                    <p>
+                        <a href="">
+                            facebook.com/tuyen.dung.haposoft
+                        </a> 
+                    </p>
+                    <p>
+                        <a href="">
+                            info@haposoft.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">
+                            +84-85-645-9898
+                        </a>
+                    </p>
+                   </div>
                 </div>
             </div>
         </div>
     </section>
+</div>
 
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
+<div class="copyright">
+     © 2020 HapoLearn, Inc. All rights reserved.
+</div>
 </footer>

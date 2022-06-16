@@ -1,0 +1,65 @@
+
+.footer-logo{
+    width: 291.6px !important;
+    height: 60px !important;
+     img{
+      width: 100% !important;
+      height: 100% !important;
+     }
+  }
+
+footer{
+    background-color: #505353 !important;
+}
+.footer_content{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px !important;
+    font-size: 15px;
+}
+
+// .slogan_company{
+//     font-weight: 400;
+//     font-size: 20px;
+//     line-height: 25px;
+//     letter-spacing: -0.05em;
+//     color: #FFFFFF;
+//     text-align: left;
+//     margin-left: 60px;
+// }
+
+.list_icon{
+    display: flex;
+   
+   
+}
+
+.icon_item{
+   
+    font-size: 30px;
+    a{
+        margin: 20px;
+        i{
+            color:#fff !important;
+        }
+    }
+}
+.list_address{
+    top: -50px;
+    text-align: left;
+    p{
+        a{
+            color:#fff;
+            &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            }
+        }
+    }
+}
+
+.copyright{
+    padding: 10px;
+    width: 100%;
+    background: #454545;
+}

@@ -7,10 +7,10 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">{{ __('Dashboard') }}</div>
-                    <div class="card-body">
-                        Hello World!!!
-                    </div>
+                    <div class="card-header">DASHBOARD</div>
+                    <div class="card-body">HELO WORLD! </div>
+                      
+                   
                 </div>
             </div>
         </div>
