@@ -42,22 +42,23 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
                    <div class="list_icon">
                      <p class="icon_item">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     </p>
                     <p class="icon_item">
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
                     </p>
                     <p class="icon_item">
-                        <a href=""><i class="fa-solid fa-phone"></i></a>
+                        <a href="#"><i class="fa-solid fa-message-sms"></i></a>
                     </p>   
                    </div>
+
                    <div class="list_address">
                     <p>
-                        <a href="">
+                        <a href="#">
                             facebook.com/tuyen.dung.haposoft
                         </a> 
                     </p>
-                    <p>
+                    <!-- <p>
                         <a href="">
                             info@haposoft.com
                         </a>
@@ -66,7 +67,7 @@
                         <a href="">
                             +84-85-645-9898
                         </a>
-                    </p>
+                    </p> -->
                    </div>
                 </div>
             </div>

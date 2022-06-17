@@ -1,19 +1,24 @@
 @extends('layouts.app')
 
 @section('content')
-
-<section class="example">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header">DASHBOARD</div>
-                    <div class="card-body">HELO WORLD! </div>
-                      
-                   
-                </div>
-            </div>
+<div class="first_layout">
+    <div class="banner">
+        <div class="banner_image">
+            
+            <img src="{{ asset('images/banner.png') }}" alt="">
+        </div>
+        <div class="banner_content">
+            <p class="banner_content_title"> Learn Anytime, Anywhere <span>at HapoLearn<img src="{{ asset('images/banner1.png') }}" alt=""> !</span> 
+                </p>
+                
+                <p class="banner_content_text">
+                    Interactive lessons, "on-the-go" practice, peer support.
+                </p>
+                <p> <a href="#" class="link_hapo">Start learning Now!</a></p>p
+    
+                
         </div>
     </div>
-</section>
-@endsection
+</div>
+
+
