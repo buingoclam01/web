@@ -1,0 +1,65 @@
+
+.banner_image{
+    width: 100%;
+    height: 100%;
+    img{
+        width: 100%;
+    height: 100%;
+    }
+}
+.banner{
+    height: 655px;
+}
+.banner_content{
+    width: 34%;
+    position: absolute;
+    top: 0;
+    margin-left: 71px;
+    margin-top: 350px;
+}
+.banner_content_title {
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 60px;
+    color: #11114e;
+    span{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #11114E;
+       
+    }
+    img{
+       width: 11%;
+    }
+}
+.banner_content_text{
+    width: 50%;
+    font-family: 'UTM BryantLG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #505353;
+
+}
+.link_hapo{
+    
+    background: #B2D235;
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 35px;
+    line-height: 69px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    padding: 18px 38px;
+   a{
+    text-decoration: none;
+   }
+    
+}
+.first_layout{
+    margin-left: 90px;
+    height: 850px;
+    background-color: #fff;
+}
