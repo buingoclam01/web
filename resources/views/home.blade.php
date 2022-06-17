@@ -14,7 +14,7 @@
                 <p class="banner_content_text">
                     Interactive lessons, "on-the-go" practice, peer support.
                 </p>
-                <p> <a href="#" class="link_hapo">Start learning Now!</a></p>
+                <p> <a href="#" class="link_hapo">Start learning Now!</a></p>p
     
                 
         </div>
